@@ -62,43 +62,43 @@ ul li {
   .responsive-img {
     display: block;
     margin-top: 15%;
-    margin-left: 5%;
-    width: 90%;
+    margin-left: 10%;
+    width: 80%;
   }
 }
 /*Large devices  I (desktops, 868px and up)*/
 @media (min-width: 868px) {
   .responsive-img {
-    margin-left: 7.5%;
-    width: 85%;
+    margin-top: 10%;
+    margin-left: 17.5%;
+    width: 65%;
   }
 }
 /*Large devices (desktops, 900px and up)*/
 @media (min-width: 900px) {
   .responsive-img {
-    margin-top: 12%;
-    margin-left: 10%;
-    width: 80%;
+    margin-left: 17.5% !important;
+    width: 65% !important;
   }
 }
 /*Large devices (desktops, 960px and up)*/
 @media (min-width: 960px) {
-  .container {
-    max-width: 100%;
-  }
-}
-/*Large devices (desktops, 992px and up)*/
-@media (min-width: 900px) {
   .responsive-img {
-    margin-left: 12.5%;
-    width: 75%;
+    margin-left: 20% !important;
+    width: 60% !important;
   }
 }
 /*Large devices (desktops, 1200px and up)*/
-@media (min-width: 900px) {
+@media (min-width: 1200px) {
   .responsive-img {
-    /*margin-left: 12.5%;
-    width: 75%;*/
+    margin-top: 5%;
+    width: 60% !important;
   }
 }
-
+/*Large devices (desktops, 1300px and up)*/
+@media (min-width: 1300px) {
+  .responsive-img {
+    margin-left: 25%;
+    width: 50% !important;
+  }
+}
